@@ -1,0 +1,35 @@
+/* .titulo {
+     font-family: 'ssf4';
+     font-size: 30px;
+} */
+
+body {
+     font-family: 'ssf4', Courier, monospace;
+     background: black;
+}
+
+body::before {
+     content: '';
+     background-image: url(../imagens/1cYrMYF.gif);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     opacity: 0.2;
+}
+
+main {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+}
+
+.cabecalho{
+     z-index: 1;
+     display: flex;
+}
+
+.cabecalho .titulo {
+     color: aliceblue;
+}
